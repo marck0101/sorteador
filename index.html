@@ -11,6 +11,7 @@
 <!-- ----------------------------------------------------------------- -->
 <!-- precisa aida ser feito -->
 <!-- criar json, ou a lista de array no caso -->
+<!-- pode ser colocado um objeto dentro do array -->
 
 <!DOCTYPE html>
 <html>
@@ -26,9 +27,13 @@
       <div>
         <span>Insira um valor</span><br />
         <input id="texto" name="entrada" type="text" />
+
         <button name="botao" onclick="mae()">salvar</button>
         <button name="botao2" onclick="limpar()">Limpar</button>
-        <ul id="lista"></ul>
+
+        <ul id="listaLimpa">
+          <ol id="lista"></ol>
+        </ul>
       </div>
     </div>
   </body>
