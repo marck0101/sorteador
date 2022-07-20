@@ -13,6 +13,10 @@ class Produto {
 
     console.log(this.arrayProdutos);
   }
+
+  listaTabela(){
+    
+  }
   
   adicionar(produto) {
     this.arrayProdutos.push(produtos);

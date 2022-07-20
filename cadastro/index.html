@@ -6,12 +6,26 @@
     <title>arrays</title>
   </head>
   <body>
-    <div>
-      <span>insiva um produto</span> <br />
-      <input type="text" /><br />
-      <!-- <span>insira um valor</span><br /> -->
-      <button onclick="produto.adicionar()">enviar</button>
-      <button onclick="produto.excluir()">excluir</button>
-    </div>
+    <main>
+      <div>
+        <span>insiva um produto</span> <br />
+        <input type="text" /><br />
+        <!-- <span>insira um valor</span><br /> -->
+        <button onclick="produto.adicionar()">Salvar</button>
+        <button onclick="produto.excluir()">Cancelar</button>
+      </div>
+
+      <div>
+        <table border="1">
+          <thead>
+            <th class="center">ID</th>
+            <th>Produto</th>
+            <th>Valor</th>
+            <th>Ações</th>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </main>
   </body>
 </html>
